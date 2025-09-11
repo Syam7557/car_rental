@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+
+# Frappe specific
+*.log
+*.pid
+*.swp
+*.swo
+*~
+.DS_Store
+node_modules/
+.vscode/
+.idea/
+
+# Database files
+*.sqlite
+*.db
+
+# Configuration files (contains sensitive data)
+site_config.json
+common_site_config.json
+.env
+
+# Build and compiled files
+public/build/
+public/dist/
+public/assets/
+*.compiled
+
+# Backups
+*.sql
+*.tar
+*.gz
+
+# OS generated files
+Thumbs.db
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
